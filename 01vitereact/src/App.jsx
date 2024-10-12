@@ -1,11 +1,19 @@
 
+
+
+import Firstfunction from "./Firstfunction"
+
+
 function App() {
+  const username = "chai aur code"
 
   return (
-      <h1>React with Vite</h1>
+    <>
+    <Chai/>
+    <h1>chai aur react {username}</h1>
+    <p>test para</p>
+   </>
   )
 }
 
 export default App
-
-
